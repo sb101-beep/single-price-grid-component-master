@@ -29,7 +29,7 @@ Users should be able to:
 
 #### Desktop screenshot
 
-![](../images/desktopscreenshot.png)
+![](./images/desktopscreenshot.png)
 
 ### Links
 
