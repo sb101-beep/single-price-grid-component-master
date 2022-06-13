@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/sb101-beep/single-price-grid-component-master](https://github.com/sb101-beep/single-price-grid-component-master)
+- Live Site URL: [https://sb101-beep.github.io/single-price-grid-component-master/](https://sb101-beep.github.io/single-price-grid-component-master/)
 
 ## My process
 
@@ -48,7 +48,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@sb101-beep](https://www.frontendmentor.io/profile/sb101-beep)
 
