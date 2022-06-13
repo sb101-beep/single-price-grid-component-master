@@ -1,0 +1,200 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e5eff5;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.card-container {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-shadow: 0px 0px 20px 3px rgba(152, 166, 189, 0.3);
+  box-shadow: 0px 0px 20px 3px rgba(152, 166, 189, 0.3);
+  border-radius: 10px;
+}
+
+.card {
+  width: 19.4375rem;
+}
+
+.card-join {
+  height: 16.6875rem;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  padding: 2rem 1.5rem;
+}
+
+.card-join h2 {
+  color: #2ab2af;
+  font-size: 21px;
+}
+
+.card-join h3 {
+  color: #c0df34;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.card-join p {
+  color: #98a6bd;
+  margin-top: 1.5rem;
+  line-height: 1.9;
+  font-size: 14px;
+}
+
+.card-subscription {
+  height: 14.1875rem;
+  background-color: #2ab2af;
+  padding: 1.5rem 1.5rem;
+}
+
+.card-subscription h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.card-subscription .money {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.card-subscription .dollar {
+  font-size: 30px;
+}
+
+.card-subscription .month {
+  margin-left: 15px;
+  font-weight: lighter;
+  opacity: 0.5;
+}
+
+.card-subscription p {
+  margin-top: 0.75rem;
+}
+
+.card-subscription button {
+  margin-top: 2rem;
+  background-color: #c0df34;
+  color: white;
+  width: 16.4375rem;
+  height: 3rem;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+  -webkit-box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-whyus {
+  height: 14.1875rem;
+  background-color: #2ab2af;
+  opacity: 0.8;
+  border-radius: 0px 0px 10px 10px;
+  padding: 1.5rem 1.5rem;
+}
+
+.card-whyus h2 {
+  font-size: 19px;
+  font-weight: normal;
+}
+
+.card-whyus ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.card-whyus li {
+  font-size: 14px;
+  margin-top: 0.2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .card-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    width: 19.5625rem;
+  }
+  .card-join {
+    height: 13.25rem;
+    width: 39.125rem;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 2.5rem 4.875rem 0rem 2.75rem;
+  }
+  .card-join h2 {
+    font-size: 22px;
+  }
+  .card-join h3 {
+    margin-top: 1.5rem;
+    font-size: 18px;
+  }
+  .card-join p {
+    margin-top: 0.5rem;
+    font-size: 15px;
+  }
+  .card-subscription {
+    height: 16rem;
+    border-radius: 0px 0px 0px 10px;
+    padding: 2.5rem 2.25rem 0rem 2.5rem;
+  }
+  .card-subscription .money {
+    margin-top: 1.25rem;
+  }
+  .card-subscription p {
+    font-size: 15px;
+    margin-top: 0.6rem;
+  }
+  .card-subscription button {
+    width: 14.75rem;
+    height: 3.125rem;
+    margin-top: 1.9rem;
+  }
+  .card-whyus {
+    height: 16rem;
+    border-radius: 0px 0px 10px 0px;
+    padding: 2.4rem 0rem 0rem 2.375rem;
+  }
+  .card-whyus ul {
+    margin-top: 1.25rem;
+  }
+  .card-whyus li {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+}
+/*# sourceMappingURL=style.css.map */
